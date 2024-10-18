@@ -127,6 +127,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 .size(450.dp)
                 .clip(RoundedCornerShape(525.dp))
                 .border(
+                    width = 5.dp,
+                    color = Color.LightGray,
+                    shape = RoundedCornerShape(125.dp)
+                )
+
 
         )
 

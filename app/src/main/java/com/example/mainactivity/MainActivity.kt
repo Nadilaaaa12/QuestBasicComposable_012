@@ -93,6 +93,13 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Text(
             text = "Nadila Zaskia Aulia",
             style = androidx.compose.ui.text.TextStyle(
+                fontSize = 23.sp,
+                fontWeight = FontWeight.SemiBold,
+                fontFamily = FontFamily.Monospace,
+                color = Color(0xFF473100)
+
+            ),
+            modifier = Modifier.padding(top = 10.dp)
         )
 
 

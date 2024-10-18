@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -67,6 +68,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 color = Color.Black,
                 ),
             modifier = Modifier.padding(top = 10.dp)
+        )
+
+        Image(
+            painter = painterResource(id = R.drawable.logoumy), contentDescription = null,
         )
 
 

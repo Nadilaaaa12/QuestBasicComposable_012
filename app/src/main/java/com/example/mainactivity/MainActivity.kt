@@ -105,7 +105,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         // Membuat NIM "20220140012"
         Text(
             text = "20220140012",
-        )
+            style = androidx.compose.ui.text.TextStyle(
+                fontSize = 35.sp,
+            )
 
 
 

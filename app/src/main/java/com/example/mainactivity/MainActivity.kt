@@ -107,7 +107,13 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             text = "20220140012",
             style = androidx.compose.ui.text.TextStyle(
                 fontSize = 35.sp,
-            )
+                fontWeight = FontWeight.Medium,
+                fontFamily = FontFamily.Serif,
+                color = Color.DarkGray,
+
+                ),
+            modifier = Modifier.padding(top = 10.dp)
+        )
 
 
 

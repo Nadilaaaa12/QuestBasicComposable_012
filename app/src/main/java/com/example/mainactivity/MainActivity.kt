@@ -131,11 +131,13 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     color = Color.LightGray,
                     shape = RoundedCornerShape(125.dp)
                 )
-
-
+                .padding(10.dp)
         )
 
 
+    }
+
+}
 
 
 @Preview(showBackground = true)

@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -75,6 +76,20 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.logoumy), contentDescription = null,
             Modifier.size(250.dp)
         )
+
+        // Membuat Teks "Nama"
+        Text(
+            text = "Nama",
+            style = androidx.compose.ui.text.TextStyle(
+                fontSize = 17.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color.Black,
+
+                ),
+            modifier = Modifier.padding(top = 20.dp)
+        )
+
+
 
 
 @Preview(showBackground = true)

@@ -102,6 +102,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             modifier = Modifier.padding(top = 10.dp)
         )
 
+        // Membuat NIM "20220140012"
+        Text(
+            text = "20220140012",
+        )
+
 
 
 

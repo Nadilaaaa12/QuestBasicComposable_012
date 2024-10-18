@@ -115,6 +115,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             modifier = Modifier.padding(top = 10.dp)
         )
 
+        // Gambar foto diri
+        Image(
+            painter = painterResource(id = R.drawable.fotodiri),
+            contentDescription = "Foto Diri",
+            modifier = Modifier
+
+        )
+
 
 
 

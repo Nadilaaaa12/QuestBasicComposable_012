@@ -92,6 +92,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         // Membuat Nama "Nadila Zaskia Aulia"
         Text(
             text = "Nadila Zaskia Aulia",
+            style = androidx.compose.ui.text.TextStyle(
         )
 
 

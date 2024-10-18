@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -57,7 +58,16 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 )
             )
         )
-
+        Text(
+            text = "Ini adalah halaman Login",
+            style = androidx.compose.ui.text.TextStyle(
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Medium,
+                fontFamily = FontFamily.SansSerif,
+                color = Color.Black,
+                ),
+            modifier = Modifier.padding(top = 10.dp)
+        )
 
 
 @Preview(showBackground = true)

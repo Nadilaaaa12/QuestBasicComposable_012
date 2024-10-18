@@ -89,6 +89,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             modifier = Modifier.padding(top = 20.dp)
         )
 
+        // Membuat Nama "Nadila Zaskia Aulia"
+        Text(
+            text = "Nadila Zaskia Aulia",
+        )
+
 
 
 
